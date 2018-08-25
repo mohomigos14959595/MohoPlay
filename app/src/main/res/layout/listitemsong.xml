@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_margin="20dp"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/textviewdetailssong"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="#00aaaaaa"
+        android:src="@drawable/ic_information"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textviewsongname"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textColor="#aaa"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textviewrate"
+        android:layout_width="30dp"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
